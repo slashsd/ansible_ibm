@@ -1,10 +1,10 @@
 # Welcome to the Ansible part of the workshop
 
 ## Intro
-For Terraform there are currently 2 collections:
+For Terraform there are currently 2 certified ansible collections:
 1. [cloud.terraform](https://console.redhat.com/ansible/automation-hub/repo/published/cloud/terraform/) - Maintained by Red Hat. It uses the terrform cli to talk to terraform.
 2. [hashicorp.terraform](https://console.redhat.com/ansible/automation-hub/repo/published/hashicorp/terraform/) - Maintained by HashiCorp
-All future development is on the hashicorp.terraform collection. It is the certified collection for integration with HashiCorp Terraform Enterprise and Cloud and it is based on the provided API. This workshop uses this collection where possible and falls back to the older cloud.terraform collection where needed. 
+All future development is on the hashicorp.terraform collection. It is the collection for integration with HashiCorp Terraform Enterprise and Cloud and it is based on the provided API. This workshop uses this collection where possible and falls back to the older cloud.terraform collection where needed. 
 
 ## The basics
 - Where is the Ansible Automation Server? -> [here](https://caap.fvz.ansible-labs.de)
