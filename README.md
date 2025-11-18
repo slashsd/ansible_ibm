@@ -9,7 +9,7 @@ Ansible Automation Platform (AAP) has the notion of "Organisations". For this wo
 
 This workshop has been designed such that **you** will need to do most of the work, signifying the word "work" in workshop ;-) This means we only have the absolute basics set up and you need to build all the components to make everything work.
 
-The division of work between Hashicorp Terraform Cloud and Ansible Automation Platform (as likely lready explained to you) is:
+The division of work between Hashicorp Terraform Cloud and Ansible Automation Platform (as likely already explained to you) is:
 - Terraform: Building up and changing infrastructure in the cloud, among which are RHEL10 servers
 - AAP: Configure the RHEL10 servers to become a webserver serving a website
 
