@@ -19,7 +19,7 @@ So what are the basics we have set up for you:
   > All future development is on the hashicorp.terraform collection. It is the collection for integration with HashiCorp Terraform Enterprise and Cloud and it is based on the provided API. This workshop uses this collection where possible and falls back to the older cloud.terraform collection where needed. 
 
 
-This workshop has been designed such that **you** will need to do most of the work, signifying the word "work" in workshop ;-) This means we only have the absolute basics set up and you need to build all the components to make everything work.
+This workshop has been designed such that **you** will need to do most of the work, signifying the word "work" in workshop :wink: This means we only have the absolute basics set up and you need to build all the components to make everything work.
 
 - Where is the Ansible Automation Server? -> [here](https://caap.fvz.ansible-labs.de)
 - What is my username? -> It is the email address you gave us when you signed up for this workshop
