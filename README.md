@@ -100,7 +100,6 @@ For the other playbooks:
 - Use the `TechXchangeNL` inventory
 - Use the `TechXchangeNL` machine credential
 
-
 ### API Token
 Part of the workshop is showing how you can run stuff _in_ AAP _from_ HashiCorp Terraform Cloud. For this, you need to provide a token from AAP to your HashiCorp Terraform Cloud workspace. You can create a token yourself using _API token_ under _Access Management_ in the menu. Choose write access. Copy/Paste the token somewhere, because it will only be shown once!
 
@@ -122,3 +121,4 @@ Define an Event Stream. This is used by Terraform Actions later on to emit event
 
 ### Rulebook Activation
 This defines and runs the listener for the events. Use the rulebook from the project you just created. The credential is the one for the controller. For `Event Stream` you need to make something called a mapping which maps the legacy source definition to this stream. There is only one mapping available so that is easy. Set the log level to debug which would help you when things don't work.
+
