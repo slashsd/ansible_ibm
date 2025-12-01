@@ -6,4 +6,7 @@
 
   tasks:
   - name: Git checkout
-
+    ansible.builtin.git:
+      repo: 'https://github.com/TechXchangeNL/website.git'
+      dest: /var/www/html/
+      force: true
