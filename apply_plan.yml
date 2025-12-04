@@ -2,7 +2,7 @@
   hosts: all
   tasks:
   - name: Apply a terraform plan
-    hashicorp.terraform.run::
+    hashicorp.terraform.run:
       state: "present"
       workspace_id: "ws-UYXsKFU7nUPZ5Ft4"
     register: tf_plan
