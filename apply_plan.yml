@@ -2,9 +2,9 @@
   hosts: all
   tasks:
   - name: Apply a terraform plan
-    community.general.terraform:
-      state: present
-      workspace: "slash_ws_ibm"
+    hashicorp.terraform.run::
+      state: "present"
+      workspace_id: "ws-UYXsKFU7nUPZ5Ft4"
     register: tf_plan
 
   - name: Output the TF plan
