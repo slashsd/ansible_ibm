@@ -5,6 +5,7 @@
     hashicorp.terraform.run:
       state: "present"
       workspace_id: "ws-UYXsKFU7nUPZ5Ft4"
+      auto_apply: true
     register: tf_plan
 
   - name: Output the TF plan
